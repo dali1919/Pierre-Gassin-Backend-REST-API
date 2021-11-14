@@ -1,0 +1,55 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <NoWin32Manifest>true</NoWin32Manifest>
+    <UserSecretsId>19ec4ff0-cc5c-42cc-993d-25ff4e1428b0</UserSecretsId>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <WarningLevel>1</WarningLevel>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20210626134106_firstmigration.cs" />
+    <Compile Remove="Migrations\20210626134106_firstmigration.Designer.cs" />
+    <Compile Remove="Migrations\20210627101034_updatecode.cs" />
+    <Compile Remove="Migrations\20210627101034_updatecode.Designer.cs" />
+    <Compile Remove="Migrations\20210627110233_updatecodeµ.cs" />
+    <Compile Remove="Migrations\20210627110233_updatecodeµ.Designer.cs" />
+    <Compile Remove="Migrations\20210710203624_first.cs" />
+    <Compile Remove="Migrations\20210710203624_first.Designer.cs" />
+    <Compile Remove="Migrations\20210710205530_first.cs" />
+    <Compile Remove="Migrations\20210710205530_first.Designer.cs" />
+    <Compile Remove="Migrations\20210710213240_second.cs" />
+    <Compile Remove="Migrations\20210710213240_second.Designer.cs" />
+    <Compile Remove="Migrations\20210711195423_add_blog.cs" />
+    <Compile Remove="Migrations\20210711195423_add_blog.Designer.cs" />
+    <Compile Remove="Migrations\20210721172657_update id.cs" />
+    <Compile Remove="Migrations\20210721172657_update id.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Azure.Storage.Blobs" Version="12.3.0" />
+    <PackageReference Include="Azure.Storage.Files.Shares" Version="12.1.0" />
+    <PackageReference Include="Azure.Storage.Queues" Version="12.2.0" />
+    <PackageReference Include="MailKit" Version="2.13.0" />
+    <PackageReference Include="Microsoft.AspNet.WebApi.Client" Version="5.2.7" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.1.10" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.10" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Abstractions" Version="5.0.7" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.10" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.10">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.Azure" Version="1.0.0" />
+    <PackageReference Include="Node.js" Version="5.3.0" />
+    <PackageReference Include="Numind.AspNetCore.SpaServices.Extensions" Version="1.0.1" />
+    <PackageReference Include="Stripe.net" Version="39.63.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="6.1.4" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="6.1.4" />
+    <PackageReference Include="WindowsAzure.Storage" Version="9.3.3" />
+  </ItemGroup>
+
+</Project>

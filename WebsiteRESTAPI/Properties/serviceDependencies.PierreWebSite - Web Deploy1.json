@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "storage1": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Storage/storageAccounts/pierrephotos",
+      "type": "storage.azure",
+      "connectionId": "Blob",
+      "secretStore": "AzureAppSettings"
+    },
+    "mssql1": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/pierrewebsitedbserver/databases/WebsiteRESTAPI_db",
+      "type": "mssql.azure",
+      "connectionId": "DBConnectionString",
+      "secretStore": "AzureAppSettings"
+    }
+  }
+}
