@@ -1,6 +1,6 @@
 # Pierre-Gassin-Backend-REST-API
 ## About Pierre-Gassin-Backend-REST-API
-This repository is the backend REST API of a real world project. This website is a portfolio of photos coverages taken by Mr. Pierre Gassin where visitor can get copyright accreditation.
+This repository is the backend REST API of a real world project. This website is a portfolio of photos coverages taken by Mr. Pierre Gassin where users can get the copyright accreditation for republish aims.
 ## Acknowledgements
 This project is is built using the following great open source projects and  services:<br />
 1. [ASP.Net Core](https://github.com/dotnet/aspnetcore)<br />
